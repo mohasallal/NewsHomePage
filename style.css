@@ -169,6 +169,10 @@ h2 {
   .mobileimg {
     display: block;
   }
+
+  .text {
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 40em) {
@@ -189,10 +193,6 @@ h2 {
 
   h1 {
     font-size: 2.5rem;
-  }
-
-  .text {
-    flex-direction: column;
   }
 
   .sideContainer {
