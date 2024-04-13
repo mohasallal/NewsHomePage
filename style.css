@@ -10,6 +10,7 @@
 }
 
 body {
+  background-color: var(--Off-white);
   font-family: "Inter", sans-serif;
   margin: 0;
   padding: 50px;
@@ -114,7 +115,7 @@ main {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 4em;
 }
 
 .RdMore {
@@ -213,6 +214,7 @@ footer {
   width: 430px;
   display: flex;
   justify-content: space-between;
+  gap: 15px;
   flex-shrink: 0;
 }
 
