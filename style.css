@@ -234,6 +234,13 @@ footer {
 .textContainer h4 {
   font-weight: 900;
   font-size: 1.25em;
+  cursor: pointer;
+}
+
+.textContainer h4:hover {
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  color: var(--SoftRed);
 }
 
 @media screen and (max-width: 840px) {
