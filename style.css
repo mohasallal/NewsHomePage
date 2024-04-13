@@ -114,8 +114,20 @@ main {
   justify-content: space-around;
 }
 
+.text div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.text div button {
+  width: 200px;
+  height: 70px;
+}
+
 h1 {
   font-size: 4em;
+  margin-right: 40px;
 }
 
 .RdMore {
